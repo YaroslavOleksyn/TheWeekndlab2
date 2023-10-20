@@ -1,0 +1,237 @@
+.sing1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+}
+
+.div1{
+    background-color: rgb(99, 251, 129);
+    padding: 1px 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    background: rgba(99, 251, 129, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.menu li {
+    display: inline;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu a {
+    text-decoration:none;
+    color: white;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+
+.sing2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.div2{
+    background-color: rgba(135, 250, 158, 0.5);
+    padding: 5px 0;
+    text-align: center;
+    display: list-item;
+    margin-left: 0%;
+}
+
+.b1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.b2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.b3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.b4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bb{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.table{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.k{
+    background-color: rgb(135, 250, 158);
+}
+
+.vid{
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.audio{
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+
+.album{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.picture img {
+    height: auto; 
+    border: 5px solid #711212;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.picture img:hover {
+    transform: scale(1.1); 
+}
+
+.pic{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+}
+
+.pict{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.videoo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.audioo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+body {
+  background-color: rgba(129, 252, 104, 0.5);
+    overflow-x: hidden;
+    padding-top: 119px;
+}
+
+.hnh{
+    background-color: #711212;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -120px; 
+    visibility: hidden;
+}
+
+.anchor1 {
+    display: block;
+    position: relative;
+    top: -120px; 
+    visibility: hidden;
+}
+  
+.anchor2 {
+    display: block;
+    position: relative;
+    top: -120px; 
+    visibility: hidden;
+}
+
+.div3 {
+    text-align: center;
+    background-color: rgb(135, 250, 158);
+}
+
+.albumlist {
+    background-color: rgb(99, 251, 129);
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.albumlist ul.column {
+    display: inline-block;
+    width: 45%;
+}
+
+.albumlist li {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.albumlist a {
+    text-decoration: none;
+    color: white;
+}
+
+.albumlist a:hover {
+    color: red;
+}
